@@ -1,0 +1,33 @@
+.touxiang {
+    width: 100%;
+    background: #444444;
+    position: relative;
+    .pic {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+    .file {
+        display: none;
+    }
+    .info {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 60%;
+        // height: 100%;
+        color: #fff;
+        box-sizing: border-box;
+        padding-top: 40px;
+        .jb {
+            width: 100%;
+            overflow: hidden;
+            .logout {
+                float: right;
+                margin-right: 20px;
+                color: #999;
+                font-size: 12px;
+            }
+        }
+    }
+}

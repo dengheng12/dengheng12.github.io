@@ -1,0 +1,86 @@
+#shopcar {
+    width: 100%;
+    >ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+        background: #fff;
+        >li:nth-child(1) {
+            margin-left: 10px;
+        }
+        >li:nth-child(2) {
+            margin-right: 10px;
+            img {
+                width: 100%;
+            }
+        }
+        >li:nth-child(3) {
+            p:nth-child(1) {
+                font-size: 16px;
+            }
+            p:nth-child(2) {
+                color: red;
+            }
+        }
+        >li:nth-child(4) {
+            margin-left: 10px;
+            height: 22px;
+            >span {
+                display: inline-block;
+                border: 1px solid #444;
+                font-size: 20px;
+                color: #000;
+                background: #fff;
+                width: 22px;
+                height: 22px;
+                text-align: center;
+                line-height: 22px;
+                box-sizing: border-box;
+            }
+            >input {
+                display: inline-block;
+                outline: none;
+                width: 30px;
+                height: 22px;
+                text-align: center;
+                border: 1px solid #444;
+                box-sizing: border-box;
+                border-left: 0;
+                border-right: 0;
+                vertical-align: top;
+            }
+        }
+    }
+}
+
+.carFoot {
+    display: flex;
+    width: 100%;
+    background: yellowgreen;
+    position: absolute;
+    bottom: 43px;
+}
+
+.noNum {
+    width: 100%;
+    img {
+        margin: 0 auto;
+    }
+}
+
+.am-result-pic {
+    width: 60px;
+    height: 60px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.sub-title {
+    color: #888;
+    font-size: 14px;
+    padding: 30px 0 18px 0;
+    margin-left: 15px;
+}

@@ -1,0 +1,46 @@
+@import "./animate.css";
+@import "./common.scss";
+@import "./iconfont/iconfont.css";
+@import "./antd-mobile.css";
+$base_ft:20px;
+
+/*no*/
+
+$base_color:red;
+// body {
+//     background: yellowgreen;
+//     #app {
+//         font-size: $base_ft;
+//         color: $base_color;
+//         border: 1px solid darkgreen;
+//         height: 400px;
+//         /*no*/
+//         width: 400px;
+//     }
+// }
+.one {
+    color: indigo;
+    font-size: 50px;
+    background: lightblue;
+}
+
+.two {
+    color: khaki;
+    font-size: 30px;
+    background: lawngreen;
+}
+
+.move-in {
+    animation: zoomIn 1.2s both;
+}
+
+.move-out {
+    animation: zoomOut 1.2s both;
+}
+
+body,
+html,
+#root .main {
+    width: 100%;
+    height: 100%;
+}
